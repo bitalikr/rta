@@ -1,0 +1,151 @@
+@import url("mega-menu.css");
+#main_nav_part ul.main_nav_bar > li .full-grid {
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+
+#main_nav_part ul.main_nav_bar .first-sub-menu {
+    float: right;
+}
+
+#main_nav_part ul.main_nav_bar .first-sub-menu li {
+    /*padding: 10px 20px 10px 35px;*/
+	padding: 10px 40px 10px 35px;
+
+}
+
+#main_nav_part ul.main_nav_bar .first-sub-menu li em {
+    float: right;
+    margin: -3px -24px 14px 20px;
+}
+
+#main_nav_part ul.main_nav_bar .first-sub-menu li em img {
+    float: right;
+}
+
+#main_nav_part ul.main_nav_bar .first-sub-menu .second-sub-menu,
+#main_nav_part ul.main_nav_bar .first-sub-menu .third-sub-menu,
+#main_nav_part ul.main_nav_bar .first-sub-menu .fourth-sub-menu {
+    right: auto;
+    left: -98%;
+    border-left: none;
+    border-right: 1px #eaeaeb solid;
+}
+
+#main_nav_part ul.main_nav_bar .list-space > li {
+    padding-left: 0;
+    padding-right: 48px;
+}
+
+#main_nav_part ul.main_nav_bar .list-space > li.arrow-sub-menu {
+    background: url(../img/sub-menu-arrow-ar.png) no-repeat 92% 13px;
+}
+
+#main_nav_part ul.main_nav_bar .list-space > li.arrow-sub-menu:hover.active-fast,
+#main_nav_part ul.main_nav_bar .list-space > li.arrow-sub-menu:hover {
+    background: #f5f5f5 url(../img/sub-menu-arrow-hover-ar.png) no-repeat 92% 13px;
+}
+
+#main_nav_part ul.main_nav_bar .list-space > li.inner-active-link {
+    color: #ee0000;
+    background: #f5f5f5 url("../img/sub-menu-arrow-hover-ar.png") no-repeat 92% 13px;
+}
+
+.site-control li.eye-icon .eye-inner {
+    right: auto;
+    left: 0;
+}
+
+.site-control li.eye-icon .eye-inner:before {
+    right: auto;
+    left: 0;
+}
+
+.grey-dark-box {
+    margin-right: 0;
+    margin-left: 70px;
+}
+
+.accordion-multi-box {
+    padding-right: 0;
+    padding-left: 70px;
+}
+
+.site-control li.eye-icon .eye-inner .color-switch-box {
+    text-align: right;
+}
+
+.site-control li.eye-icon .eye-inner .color-switch-box label em {
+    float: right;
+    margin: -4px 0 0 10px;
+}
+
+/*Old nav fixed
+--------------------------*/
+#main_nav_part ul.main_nav_bar > li:nth-child(6) {
+    background-position: 5px 36px !important;
+}
+
+#main_nav_part ul.main_nav_bar {
+    font-family: 'RTA';
+}
+
+#main_nav_part ul.main_nav_bar > li > a > p {
+    font-size: 12px;
+}
+
+#main_nav_part ul.main_nav_bar .list-space > li,
+#main_nav_part ul.main_nav_bar > li.short .first-sub-menu > li {
+    padding-left: 0;
+    padding-right: 45px;
+}
+
+@media screen and (max-width: 768px){
+    .nav-btn{
+        left: auto;
+        right: 5px;
+    }
+
+    .site-control{
+        right: auto;
+        left: 5px;
+    }
+
+    li.lang-switcher {
+        margin-left: 9px !important;
+    }
+
+
+    #main_nav_part ul.main_nav_bar > li > a > span {
+        margin: 0 0 0 10px !important;
+    }
+
+    ul.main_nav_bar > li > a > p, #main_nav_part ul.main_nav_bar > li > a > span {
+        float: right;
+    }
+
+    #main_nav_part ul.main_nav_bar > li.short.has_submenu.highlight2, #main_nav_part ul.main_nav_bar > li.has_submenu.highlight, #main_nav_part ul.main_nav_bar > li.has_submenu.highlight1, #main_nav_part ul.main_nav_bar > li.has_submenu.highlight:hover, #main_nav_part ul.main_nav_bar > li.has_submenu.highlight1:hover, #main_nav_part ul.main_nav_bar > li.short.has_submenu.highlight2:hover {
+        background-image: none !important;
+    }
+
+    .full-grid .back-arrow{
+        margin: 0 -26px 0 0;
+        background: url(../img/back-arrow-ar.png) no-repeat 0 0;
+    }
+
+    #main_nav_part ul.main_nav_bar .first-sub-menu .second-sub-menu, #main_nav_part ul.main_nav_bar .first-sub-menu .third-sub-menu, #main_nav_part ul.main_nav_bar .first-sub-menu .fourth-sub-menu {
+        right: 0;
+        left: auto;
+    }
+
+    #main_nav_part ul.main_nav_bar .first-sub-menu .fourth-sub-menu li .back-arrow, #main_nav_part ul.main_nav_bar .quarter-sub-menu .first-sub-menu .second-sub-menu li .back-arrow, #main_nav_part ul.main_nav_bar > li.shortMenu .first-sub-menu li .back-arrow {
+        margin-right: 0;
+    }
+
+    #main_nav_part ul.main_nav_bar > li.shortMenu .first-sub-menu li.backArrow-desktopHide {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+}

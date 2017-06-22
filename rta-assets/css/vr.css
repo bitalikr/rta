@@ -1,0 +1,584 @@
+/* Vehicle Renewal */
+.vehicleRenewal {
+	clear: both;
+	line-height: 1.5em;
+}
+.vehicleRenewal .vrBlue {
+	color: #38b7ed;
+}
+.vehicleRenewal .vrRow {
+	padding: 40px 0px;
+}
+.vehicleRenewal .vrRow p {
+	padding: 10px 0px;
+}
+.vehicleRenewal .vrRow a.link {
+	color: #38b7ed;
+	text-decoration: underline;
+}
+.vehicleRenewal ul.genList {
+	padding: 10px 0px;
+	margin: 0px;
+}
+.vehicleRenewal ul.genList li {
+	background: url(img/vr/arrow-grey.png) no-repeat left 6px;
+	padding-left: 15px;
+}
+.vehicleRenewal .vrBlueBg {
+	background-color: #1daeec;
+}
+.vehicleRenewal .vrBlueBg h2 {
+	color: #fff;
+}
+.vehicleRenewal h3 {
+	padding: 15px 0px;
+}
+.vehicleRenewal .vrBlueBg h2 b {
+	color: #fff;
+}
+.vehicleRenewal ul.vrSteps {
+	clear: both;
+	padding: 35px 0px;
+	margin: 0px;
+	overflow: hidden;
+	background: url(img/vr/vrline.png) no-repeat center 65px;
+}
+.vehicleRenewal ul.vrSteps li {
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	color: #fff;
+	font-size: 18px;
+}
+.vehicleRenewal ul.vrSteps li span {
+	display: inline-block;
+	padding: 15px 20px 25px 20px;
+	border-radius: 40px;
+	min-width: 60px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	background-color: #fff;
+	color: #9c9c9c;
+	font-size: 28px;
+	clear: both;
+}
+.vehicleRenewal ul.vrSteps li b {
+	display: block;
+	clear: both;
+	padding: 20px 0px 0px 0px;
+}
+.vehicleRenewal .service-box {
+	padding-right: 20px;
+}
+.vehicleRenewal .service-box h3 {
+	color: #38b7ed;
+	font-size: 16px;
+}
+.vehicleRenewal .minHeight h3 {
+	min-height: 70px;
+	padding-bottom:0px;
+}
+.vehicleRenewal .topBorder {
+	border-top: solid 1px #eee;
+}
+.vehicleRenewal label {
+	padding-top: 5px;
+}
+.vehicleRenewal label input[type="checkbox"] {
+	float: left;
+	margin-right: 8px;
+}
+.vehicleRenewal label input[type="checkbox"] {
+	float: left;
+	margin-right: 8px;
+}
+.vehicleRenewal label input[type="checkbox"].checked {
+	background: url("img/vr/checked.png") no-repeat center center;
+	display: block;
+	-webkit-appearance: none;
+	height: 16px;
+	width: 16px;
+}
+.vehicleRenewal button.btn-start-process, .vehicleRenewal button.btn-extras, .vehicleRenewal button.btn-vr {
+	height: 60px;
+}
+.vehicleRenewal button.btn-start-process {
+	float: right;
+	margin: 85px 0px 0px;
+}
+.vehicleRenewal .errorMsg, .vehicleRenewal .errorMsgProcess {
+	color: #db383c;
+	font-weight: bold;
+	background: url("img/vr/error.png") no-repeat left 8px;
+	padding: 8px 0px 8px 30px !important;
+	margin-top: 15px;
+	display: block;
+	clear: both;
+	font-size: 14px;
+}
+.vehicleRenewal .redMessage {
+	padding: 25px 0px;
+	color: #db383c;
+}
+.vehicleRenewal .errorMsgProcess {
+	margin-top: 0;
+}
+.vehicleRenewal .list-com li {
+	padding: 10px 0px;
+	overflow: hidden;
+}
+.list-com li b {
+	padding: 0px 5px;
+	color: #1daeec;
+}
+.chat, .faq {
+	font-size: 30px;
+	padding: 0px;
+	margin: 0px;
+	line-height: 28px;
+	color: #1daeec;
+	clear: both;
+	display: block;
+	overflow: hidden;
+}
+.chat:before, .faq:before {
+	display: block;
+	width: 35px;
+	height: 28px;
+	float: left;
+	content: "";
+	margin: 5px 5px 0px 0px;
+	padding: 0px 0px;
+	background-position: center center;
+}
+.chat:before {
+	background-image: url(img/vr/ico-chat.png);
+}
+.faq:before {
+	background-image: url(img/vr/ico-faq.png);
+}
+.faqBox {
+	border-top: solid 1px #eee;
+}
+.faqList {
+	padding: 15px 0px;
+}
+.faqList li {
+	clear: both;
+	overflow: hidden;
+	padding: 5px 0px 5px 18px;
+	background: url(img/vr/para-close.png) no-repeat left 13px;
+}
+.faqList li.open {
+	background: url(img/vr/para-open.png) no-repeat left 13px;
+}
+.faqList li a {
+	cursor: pointer;
+	display: block;
+	overflow: hidden;
+}
+.faqList li span {
+	display: none;
+	clear: both;
+}
+.vehicleRenewal ul.vrStepsProcess {
+	clear: both;
+	padding: 20px 0px;
+	margin: 0px;
+	overflow: hidden;
+	background: url(img/vr/vrline-blue.png) no-repeat center 50px;
+}
+.vehicleRenewal ul.vrStepsProcess li {
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	color: #fff;
+	font-size: 18px;
+}
+.vehicleRenewal ul.vrStepsProcess li span {
+	display: inline-block;
+	padding: 20px;
+	border-radius: 40px;
+	min-width: 60px;
+	min-height: 60px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	background-color: #fff;
+	color: #1daeec;
+	border: solid 2px #1daeec;
+	font-size: 28px;
+	clear: both;
+	line-height: 8px;
+}
+.vrProcessSuccess .processHeader.error {
+	color: #db383c;
+	font-weight:bold;
+}
+.vehicleRenewal ul.vrStepsProcess li.active span {
+	background-color: #1daeec;
+	color: #fff;
+}
+.vehicleRenewal ul.vrStepsProcess li.completed span {
+	background:#1daeec url("img/vr/completed.png") no-repeat center center;  
+}
+.vehicleRenewal ul.vrStepsProcess li.first, .vehicleRenewal ul.vrStepsProcess li.last {
+	width: 20%;
+}
+.vehicleRenewal ul.vrStepsProcess li.first span {
+	float: left;
+}
+.vehicleRenewal ul.vrStepsProcess li.last span {
+	float: right;
+}
+.vrProcess h2 {
+	color: #1daeec;
+	font-size: 36px;
+	line-height:36px;
+	padding: 10px 0px;
+}
+.vrProcess h3 {
+	color: #000000;
+	font-size: 18px;
+	padding: 10px 0px;
+}
+.vrProcess h4 {
+	color: #9c9c9c;
+	font-size: 18px;
+	padding: 10px 0px;
+}
+.vrProcess .btn-process {
+	float: right;
+	width: 200px;
+	height: 50px;
+}
+.vrProcessErr h2, .vrProcessErr p {
+	color: #db383c;
+}
+.vrProcessErr .errorMsgProcess {
+	font-size: 18px;
+	font-weight: bold;
+}
+.vrProcessSuccess h2 {
+	color: #1daeec;
+	padding: 5px 0px;
+}
+.vrProcessSuccess p {
+	padding: 10px 0px;
+}
+.vrProcessSuccess .row {
+	overflow: hidden;
+}
+.vrProcessSuccess .processHeader {
+	font-size: 14px;
+	color: #9c9c9c;
+	background-color: #f4f4f4;
+	padding: 10px 15px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	clear: both;
+}
+.process-para {
+	padding: 10px 0px;
+}
+.vrProcessSuccess .process-para p {
+	color: #9c9c9c;
+	font-size: 14px;
+}
+.vrProcessSuccess .process-para p b {
+	font-size: 18px;
+	color: #000000;
+}
+.vrProcessSuccess .processFooter, .redMsgConfirm {
+	color: #db383c;
+	background: url(img/vr/info-red.png) no-repeat left 10px;
+	padding: 10px 10px 10px 30px;
+}
+.redMsgConfirm {
+	padding:25px 30px;
+}
+.vrProcessSuccess .noInsurance{
+	color: #db383c;
+	background: url(img/vr/info-red.png) no-repeat left 20px;
+	padding: 10px 30px;
+}
+.vrProcessSuccess .noInsurance p,
+.vrProcessSuccess .noInsurance ul {
+	padding:3px 0px;
+	color: #db383c;
+}
+.vrProcessSuccess .noInsurance p b {
+	color: #db383c;
+}
+.vrProcessSuccess .noInsurance p i {
+	color: #db383c;
+	font-style:normal;
+	font-size:14px;
+	font-weight:bold;
+}
+.vrFeeSummary h2, .vrOExtras h2 {
+	color: #1daeec;
+}
+.vrFeeSummary h3 {
+	padding: 15px;
+}
+.vrFeeSummary .blueBox {
+	border: solid 2px #1daeec;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
+.vrFeeSummary .blueBox h3 {
+	color: #1daeec;
+}
+.vrFeeSummary .vrExpand,
+.finePayment .fpExpand {
+	background: url(img/vr/expand.png) no-repeat center right;
+	color: #9c9c9c;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 5px 30px 5px 0px;
+	cursor: pointer;
+}
+.vrFeeSummary .vrCollapse,
+.finePayment .fpCollapse {
+	background: url(img/vr/collapse.png) no-repeat center right;
+	color: #9c9c9c;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 5px 30px 5px 0px;
+	cursor: pointer;
+}
+.vrFeeSummary .tabFeeExpanded p {
+	color: #9c9c9c;
+	font-weight: lighter;
+	font-size: 18px;
+	padding: 6px 15px;
+}
+.vrFeeSummary .tabFeeExpanded .tabFirst p {
+	padding: 15px 15px 6px 15px;
+}
+.vrFeeSummary .tabFeeExpanded .tabLast h3 {
+	padding: 6px 15px 25px 15px;
+}
+.vrFeeSummary .tabHeader {
+	font-size: 14px;
+	color: #000;
+	background-color: #f4f4f4;
+	padding: 3px 0px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	clear: both;
+}
+.vrFeeSummary .tabBody {
+}
+.vrFeeSummary .tabHeader h3 {
+	color: #000;
+}
+.vrOExtras h3 {
+	padding: 5px 0px;
+}
+.vrOExtras ul.genList {
+	padding: 0px;
+}
+.vrOExtras .field,
+.vrFeeSummary .field {
+	padding:0px;
+}
+.btn-extras:hover, .btn-extras:visited, .btn-extras.active {
+	background-color: #469500;
+	color: #fff;
+	outline: none;
+	border: solid 1px #469500;
+}
+.btn-default {
+	font-weight:bold;
+}
+.btn-plate-sel:hover, .btn-plate-sel:visited, .btn-plate-sel.choose {
+	background:#c9c9c9 url(img/vr/success.png) no-repeat 8px center; 
+	color: #fff;
+	border: solid 1px #c9c9c9;
+}
+.plate-selection,
+.brand-selection {
+	padding: 10px 0px; 
+}
+.plate-selection label {
+	font-weight: normal;
+	padding: 25px 0px 0px;
+}
+.brand-selection label {
+	font-weight: normal;
+	padding:0px;
+}
+.plate-selection p {
+	padding: 0px !important;
+}
+.plate-selection label,
+.brand-selection label {
+	opacity: 0.5;
+}
+.plate-selection label:hover, .plate-selection label.active,
+.brand-selection label:hover, .brand-selection label.active {
+	opacity: 1;
+}
+.plate-selection label.active input[type="radio"],
+.brand-selection label.active input[type="radio"] {
+	background: url("img/vr/radio.png") no-repeat center center;
+	display: block;
+	-webkit-appearance: none;
+	height: 16px;
+	width: 16px;
+	outline:none;
+}
+.aCenter {
+	text-align:center;
+}
+.vrDeliveryOption {
+	width:200px;
+	float:left;
+}
+.vrDeliveryOption p {
+	margin:0px;
+	padding:5px 0px; 
+	clear:both;
+} 
+.vrDeliveryOption ul.genList { 
+	padding:0px;
+}
+.vrForm input, .vrForm input.form-control,
+.vrForm .input-group-addon,
+.vrForm .select {
+	background-color: #f4f4f4;
+}
+.vrForm .date-chosen label {
+	padding:0px;
+}
+.vrForm .date-chosen h3 {
+	color:#00b140;
+	font-size:30px; 
+}
+.vrOfficeInfo {
+	padding:0px 20px;
+}
+.vrOfficeInfo h4 {
+	color:#1daeec;
+}
+.vrOfficeInfo p b {
+	color:#9c9c9c;
+	font-size:14px;
+}
+.select2 { width: 100%; }
+.vrBottomBorder { border-bottom: solid 1px #cecece; }
+.vrTopBorder { border-top: solid 1px #cecece; }
+
+/* Fine Payment */
+
+.finePayment label input[type="radio"],
+.finePayment label input[type="radio"]:checked  {
+	display: block;
+	-webkit-appearance: none;
+	height: 16px;
+	width: 16px;
+	outline:none;
+	float:left;
+	margin:0px 5px 0px 0px;
+	padding:0px;
+}
+.finePayment label input[type="checkbox"],
+.finePayment label input[type="checkbox"]:checked  {
+	display: block;
+	-webkit-appearance: none;
+	height: 16px;
+	width: 16px;
+	outline:none;
+	float:left;
+	margin:2px 5px 0px 0px;
+	padding:0px;
+}
+.select2-container--default.select2-container--disabled .select2-selection--single {
+	background-color:#fff;
+	cursor: not-allowed;
+}
+.select2-container--default.select2-container--disabled .select2-selection--single .select2-selection__rendered,
+.finePayment input.notAllowed {
+	color:#d5d5d5 !important;
+}
+
+.finePayment label input[type="radio"] {
+	background: url("img/vr/radio-normal.png") no-repeat center center;
+}
+.finePayment label input[type="radio"]:checked {
+	background: url("img/vr/radio-selected.png") no-repeat center center;
+}
+.finePayment label input[type="checkbox"] {
+	background: url("img/vr/checked-normal.png") no-repeat center center;
+}
+.finePayment label input[type="checkbox"]:checked {
+	background: url("img/vr/checked-selected.png") no-repeat center center;
+}
+.finePayment .process-para {
+	color:#000;
+	font-size:14px; 
+	padding:5px 0px;
+}
+.finePayment .process-para b {
+	color:#1daeec;
+	font-size:30px;
+	padding:3px 0px;
+}
+.finePayment .processHeader {
+	padding:10px;
+}
+.finePayment .fpHeader {
+	background-color: #f4f4f4;
+}
+.finePayment .fpHeader p {
+	padding:10px 0px;
+}
+.finePayment .fpHeader p.first {
+	padding:10px 15px;
+}
+.finePayment .plate {
+	margin:40px 10px 0px 30px;
+}
+.finePayment .fpDetails .row { 
+	padding:0px; margin:0px; 
+}
+.finePayment .fpDetails .amount b {
+	color:#1daeec;
+	font-size:18px;
+}
+.finePayment ul.filter {
+	padding-bottom:15px;
+}
+.finePayment ul.filter label {
+	color:#9c9c9c;
+}
+.finePayment a#allResults {
+	color:#1daeec;
+	font-weight:bold;
+	cursor:pointer;
+}
+.finePayment .blueBox {
+	margin-top:20px;
+}
+.finePayment .tabFeeExpanded {
+	padding-top:15px;
+}
+.finePayment .fpHeadline h3 {
+	padding:15px 0px;
+}
+.finePayment .fpRecieptHeader h2 {
+	padding:5px 0px 5px 0px;
+}
+.finePayment .fpRecieptHeader h3 {
+	padding:10px 0px;
+}
+.res-img {
+	width:100%;
+}

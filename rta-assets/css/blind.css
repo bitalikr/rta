@@ -1,0 +1,1479 @@
+/* background color : black */
+body, .main_nav_part_bg, .grey-box, .right-bar, .left-bar, #news_part, #search_part, #left_section, #leftnav_part, #news_part .carousel-inner, .search_home_services ul li:hover, .btn-grey, .btn-blue, .btn-blue:hover, .btn-grey:hover, .btn-grey:visited, .btn-grey:focus, .btn-grey.active, .btn-blue:visited, .btn-blue:focus, .btn-blue.active, #services_part, #main_nav_part ul.main_nav_bar>li:hover, #main_nav_part ul.main_nav_bar>li>.second-menu, #main_nav_part ul.main_nav_bar>li>.second-menu .third-menu, .popup, .smiley, .search-autosuggest, ul.list-services li:hover, ul.list-services li.active, .bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td span.active, .wizards ul li a, .select2-container--default .select2-results__option--highlighted[aria-selected], .info-area, .page-info, .btn-green, .row-form select, .txt, .menu_item_active {
+	background-color: rgb(0, 0, 0);
+}
+body {
+	background-color: #000 !important;
+}
+#left_section {
+	background: #000 url(img/bw/bg-left-nav.png) repeat-x left top;
+}
+
+/* EB - About RTA changes starts here*/
+.pagrah-link{
+	background:url('img/bw/link_over.png') no-repeat 80px center !important
+}
+.btn-see-all a,.read-more-div a{color:yellow !important;}
+/*..btn-see-all{background:url('img/bw/link_over.png') no-repeat 98.5% center;}*/
+.read-more-div a{
+	background:url('img/bw/link_over.png') no-repeat right;
+}
+
+
+.footernav a, .get-started, h2.subheading, .errorMsgProcess {
+    color: rgb(255, 255, 0) !important;
+}
+.footernav a:hover, .get-started:hover {
+    color: rgb(255, 255, 255) !important;
+}
+.btn-services:hover {
+	background-image: url("img/bw/services-icon-hover.png");
+}
+.board-member-info h2, .board-member-info h2 a{color:yellow !important;}
+.board-member-info h2, .board-member-info h2 a:hover{color:white !important;}
+.board-member-info a.link{background:url("img/bw/arrow-right.png") no-repeat 100px center transparent;color:yellow !important;}
+.suport-faq .row.faq-topics a {
+    color: yellow !important;
+}
+.suport-faq .row.faq-topics a:hover {
+	color: white !important;
+}
+.contact-us-faq .search_home:hover {
+	background: url("img/bw/search-hover.png") no-repeat 10px center #fff;
+}
+.contact-us-faq .faq-topics li a, .contact-us-faq .faq-topics li a:hover, .contact-us-faq .faq-topics li a:focus {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+.contact-us-faq .search_home {
+	background-color: #000;
+}
+.contact-us-faq .search_home:hover {
+	background: url("img/bw/search-hover.png") no-repeat 99% center #000;
+}
+.faq-topic-content {
+	border-top: 20px solid #989898;
+}
+
+.contact-us-faq .faq-topics li a, .contact-us-faq .faq-topics li a:hover, .contact-us-faq .faq-topics li a:focus {
+	background: url("img/bw/arrow-white-right.png") no-repeat 2% center transparent;
+}
+.faq-content li a.active {
+	background: url("img/bw/vr/collapse.png") no-repeat left 5px;
+}
+.faq-content li a {
+	background: url("img/bw/vr/expand.png") no-repeat left 5px;
+}
+.contact-us-faq .faq-topics li a, .contact-us-faq .faq-topics li a:hover, .contact-us-faq .faq-topics li a:focus {
+	background: url("img/bw/arrow-white-right.png") no-repeat right center transparent;
+}
+.faq-topic-content div.close-faq {
+	background: url("img/bw/back.png") no-repeat center top;
+}
+.search-survey h1, .contact-us h1, .contact-us a, .vehicleRenewal .service-box h3 {
+	color: #fff;
+}
+.vehicleRenewal label input[type="checkbox"].checked {
+	background: url("img/bw/vr/checked.png") no-repeat center center;
+}
+.chat, .faq {
+	color: rgb(255, 255, 0);
+}
+.vrProcess h2, .vehicleRenewal .vrBlue, .vrProcessSuccess .process-para p b {
+	color: #fff;
+}
+.chat:before {
+	background-image: url(img/bw/vr/ico-chat.png);
+}
+.faq:before {
+	background-image: url(img/bw/vr/ico-faq-y.png);
+}
+.vehicleRenewal .vrBlueBg {
+	background-color: #000;
+	border-bottom: solid 1px #666;
+	border-top: solid 1px #666;
+}
+.vehicleRenewal ul.vrSteps li span, .vehicleRenewal ul.vrStepsProcess li span {
+	color: #000;
+	border: solid 2px rgb(255, 255, 0);
+}
+.vehicleRenewal ul.vrStepsProcess li.active span {
+	background-color: rgb(255, 255, 0);
+	color: #000;
+	border: solid 2px rgb(255, 255, 0);
+}
+.finePayment label input[type="radio"]:checked {
+	background: url("img/bw/vr/radio-selected.png") no-repeat center center;
+}
+.finePayment label input[type="radio"] {
+	background: url("img/bw/vr/radio-normal.png") no-repeat center center;
+}
+.vrFeeSummary .vrExpand, .finePayment .fpExpand {
+	background: url(img/bw/vr/expand.png) no-repeat center right;
+}
+.vrFeeSummary .vrCollapse, .finePayment .fpCollapse {
+	background: url(img/bw/vr/collapse.png) no-repeat center right;
+}
+.vehicleRenewal ul.vrStepsProcess li.completed span {
+	background: rgb(255, 255, 0) url("img/bw/vr/completed.png") no-repeat center center;
+}
+.finePayment label input[type="checkbox"]:checked {
+	background: url("img/bw/vr/checked-selected.png") no-repeat center center;
+}
+.finePayment .process-para b, .finePayment a#allResults, .finePayment .fpDetails .amount b, .vehicleRenewal .vrRow a.link, .vrFeeSummary h2, .vrOExtras h2 {
+	color: #fff;
+}
+.vrFeeSummary .blueBox h3, a:focus, a:hover {
+	color: rgb(255, 255, 0);
+}
+.vrFeeSummary .blueBox {
+	border: solid 2px rgb(255, 255, 0);
+}
+.vehicleRenewal ul.vrStepsProcess {
+	background: url(img/bw/vr/vrline-blue.png) no-repeat center 50px;
+}
+.btn-extras:hover, .btn-extras:visited, .btn-extras.active {
+	background-color: rgb(255, 255, 0);
+	color: #000;
+	border: solid 1px rgb(255, 255, 0);
+}
+.btn-plate-sel:hover, .btn-plate-sel:visited, .btn-plate-sel.choose {
+	background: #c9c9c9 url(img/bw/vr/success.png) no-repeat 98% center;
+}
+.plate-selection label.active input[type="radio"], .brand-selection label.active input[type="radio"] {
+	background: url("img/bw/vr/radio.png") no-repeat center center;
+}
+.gm-style .gm-style-iw {
+	color: #000;
+}
+#extra_part .extra-item .btn-grey.complaints {
+	background: #fff url("img/bw/complaints.png") no-repeat 40px center !important;
+}
+#extra_part .extra-item .btn-grey.complaints:hover {
+	background: #000 url("img/complaints_hover.png") no-repeat 40px center !important;
+}
+.visit-branch::before {
+	background-image: url("img/bw/channel-visitbranch-yellow.png");
+}
+.explore-rta-content .explore-list li a:hover, h1.heading a:hover {
+	color: #aaa !important;
+}
+.explore-rta-content .explore-list li a.mission-icon {
+	background: url("img/bw/about-us/mission-vision-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.mission-icon:hover {
+	background: url("img/bw/about-us/mission-vision-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.our-values-icon {
+	background: url("img/bw/about-us/our-values-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.our-values-icon:hover {
+	background: url("img/bw/about-us/our-values-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.quality-icon {
+	background: url("img/bw/about-us/quality-policy-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.quality-icon:hover {
+	background: url("img/bw/about-us/quality-policy-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.safety-icon {
+	background: url("img/bw/about-us/safety-policy-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.safety-icon:hover {
+	background: url("img/bw/about-us/safety-policy-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.security-icon {
+	background: url("img/bw/about-us/security-privacy-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.security-icon:hover {
+	background: url("img/bw/about-us/security-privacy-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.branch-icon {
+	background: url("img/bw/about-us/branch.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.branch-icon:hover {
+	background: url("img/bw/about-us/branch-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.customer-icon {
+	background: url("img/bw/about-us/customer-goal.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.customer-icon:hover {
+	background: url("img/bw/about-us/customer-goal-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.complaint-icon {
+	background: url("img/bw/about-us/complaints.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.complaint-icon:hover {
+	background: url("img/bw/about-us/complaints-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.press-icon {
+	background: url("img/bw/about-us/press-release.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.press-icon:hover {
+	background: url("img/bw/about-us/press-release-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.announcements-icon {
+	background: url("img/bw/about-us/announcements.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.announcements-icon:hover {
+	background: url("img/bw/about-us/announcements-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.archives-icon {
+	background: url("img/bw/about-us/archives-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.archives-icon:hover {
+	background: url("img/bw/about-us/archives-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.our-goals-icon {
+    background: url("img/bw/about-us/our-goals-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.our-goals-icon:hover {
+    background: url("img/bw/about-us/our-goals-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.international-icon{
+    background: url("img/bw/about-us/ico-international.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.international-icon:hover {
+    background: url("img/bw/about-us/ico-international-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.local-icon{
+    background: url("img/bw/about-us/ico-local.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.local-icon:hover {
+    background: url("img/bw/about-us/ico-local-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.asset-icon{
+    background: url("img/bw/about-us/ico-local.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.asset-icon:hover {
+    background: url("img/bw/about-us/ico-local-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.asset-icon{
+    background: url("img/bw/about-us/aboutus-am-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.asset-icon:hover {
+    background: url("img/bw/about-us/aboutus-am-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.photo-icon{
+    background: url("img/bw/about-us/photo-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.photo-icon:hover {
+    background: url("img/bw/about-us/photo-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.author-icon{
+    background: url("img/bw/about-us/author-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.author-icon:hover {
+    background: url("img/bw/about-us/author-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.chair-icon{
+    background: url("img/bw/about-us/chair-icon.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.chair-icon:hover {
+    background: url("img/bw/about-us/chair-icon-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.educational-icon {
+	background: url("img/bw/about-us/icon-educational.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.educational-icon:hover {
+	background: url("img/bw/about-us/icon-educational-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.environmental-icon {
+	background: url("img/bw/about-us/icon-environmental.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.environmental-icon:hover {
+	background: url("img/bw/about-us/icon-environmental-hover.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.social-icon {
+	background: url("img/bw/about-us/icon-social.png") no-repeat left center transparent;
+}
+.explore-rta-content .explore-list li a.social-icon:hover {
+	background: url("img/bw/about-us/icon-social-hover.png") no-repeat left center transparent;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{background-color: rgb(0, 0, 0) !important;}
+/* EB - About RTA changes ends here*/
+.policy-list h1.heading a{color:yellow !important;}
+.explore-rta-content h1.heading, h1.heading a{color:#000 !important;}
+.faq-ask h1, .faq-page h1, .faq-page .content h2, .faq-page .nav-left a, h1.heading, h1.heading a, .explore h3 a {
+    color: rgb(255, 255, 0);
+}
+#rtaCrumbs_top{background:#000 !important;}
+.explore h3 a:hover {
+    color: #666;
+}
+.bgGray{background-color: black !important;}
+
+input.normalBtn{color:rgb(0, 0, 0) !important;background-color: rgb(255, 255, 255) !important;}
+input.normalBtn:hover{color:#fff !important;background-color: #000 !important;border: solid 1px #fff !important;}
+
+#goSmartDivId{margin-left:20px;}
+.aYear.active a{color:yellow !important;}
+.aYear:hover a{color:white !important;}
+.aYear.active{    border-bottom: solid 2px yellow !important;}
+.aYear:hover{    border-bottom: solid 2px white !important;}
+/* EB - About RTA changes ends here*/
+
+
+/*Production pushes*/
+.tableHeaderLeftStyle {
+    font-size: 25px;
+    color: #9c9c9c;
+}
+#goSmartDivId {
+    margin-left: 20px;
+}
+.bgGray {
+    background-color: black !important;
+}
+input.normalBtn:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+    border: solid 1px #fff !important;
+}
+input.normalBtn {
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+#tab-component div.tab-component-content-dummy {
+    background: #000 !important;
+}
+.tab-component-content-dummy {
+       color: white !important;
+}
+.tab-component-content-dummy a:hover {
+    color: yellow !important;
+}
+/*Production pushes ends*/
+
+/* background color : white */
+.hvr-sweep-to-right:before, .btn-blue, .btn-grey, #left_section .top-bar, #left_section.active #show_login, ul.list-alpha li a:hover, ul.list-alpha li.active a, ul.list-alpha li a:hover, ul.list-alpha li.active a, .wizards ul li.active a {
+	background-color: rgb(255, 255, 255);
+}
+/* background color : yellow */
+.carousel-indicators .active, select2-results__option select2-results__option--highlighted, ul.list-services li.active, ul.list-services li:hover, .wizards ul li.active a {
+	background-color: rgb(255, 255, 0);
+}
+/* text color : white */
+#main_nav_part ul.main_nav_bar {
+	background: #000;
+}
+body, .main_nav_part_bg, .grey-box, .right-bar, .left-bar, .btn-grey, .popular-service .btn-grey, button.suggestion:hover, .btn-blue, .btn-blue:hover, .btn-blue:visited, .btn-blue:focus, .btn-blue.active, .title-padding h3, #toll_free h4, .single-new h3, .footernav a, .title-padding h3 b, .login-bar a, .search-survey ul li, .toll-free:hover, .fax:hover, .email:hover, .list-com .suggestion:hover, .search-autosuggest li a, .form h3, .form a, a, .service-container h3, .search-survey h1, .channel-tollfree a, .icon:hover, .search_home input, .form .red, .channel-callcenter a, .channel-visitbranch a, .channel-smartappps a, ul.list-alpha li, ul.list-alpha li a, ul.list-services li a,  ul.search-result li a.tlink, ul.search-result li, ul.search-result li a, #news_part, #search_part, #left_section, #leftnav_part,  #show_login, #news_part .carousel-inner, #e_service_radio label, #services_part, #main_nav_part ul.main_nav_bar>li:hover,  #extra_part .btn-grey:hover, #extra_part .btn-grey:visited, #extra_part .btn-grey:focus, #extra_part .btn-grey.active,  #main_nav_part ul.main_nav_bar>li>.second-menu, #main_nav_part ul.main_nav_bar>li>.second-menu .third-menu,  #main_nav_part ul.main_nav_bar>li>.second-menu ul>li>a, #main_nav_part ul.main_nav_bar>li.has_submenu.highlight:hover a p,  #main_nav_part ul.main_nav_bar>li:hover>a>p, #leftnav_part ul li a, #search_part ul li a, ul.list-alpha li a:hover, ul.list-alpha li.active a,  .bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td span.active, .wizards ul li a,  .wizards ul li.active a, #main_nav_part ul.main_nav_bar>li:hover>a>p, .main-content, .select2-container--default .select2-results__option--highlighted, .faq-content, .faq-topic-content h4, .explore .links li a, .main-holder p{
+	color: rgb(255, 255, 255);
+}
+/* text color : black */
+.popular-service .btn-grey:hover, .btn-blue, button.suggestion, .btn-grey, .wizards ul li.completed a, .search_home_services ul li a, .datepicker .picker-switch, .datepicker .prev, .datepicker .next, .breadcrumb p, .breadcrumb p a, .select-services .select2-container--default .select2-selection--single .select2-selection__rendered, #left_section .top-bar, #left_section.active #show_login, #extra_part .btn-grey:hover, #extra_part .btn-grey:visited, #extra_part .btn-grey:focus, #extra_part .btn-grey.active, ul.list-alpha li a:hover, ul.list-alpha li.active a, .bootstrap-datetimepicker-widget table td span, .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th, ul.list-services li.active a, ul.list-services li a:hover, .wizards ul li.active a , .select2-results__option, .contact-us-faq h2, .contact-us-faq, h1.heading a, .explore-rta-content .explore-list li a, .explore-rta-content .heading + p{	
+	color: rgb(0, 0, 0);
+}
+/* text color : yellow */
+#main_nav_part ul.main_nav_bar>li>.second-menu .third-menu h3 a, #toll_free, #main_nav_part ul.main_nav_bar>li>a>p, .app-data h3, .new-content h3, #search_part:hover input, #search_part.active input, .search-container:hover input, #wizards-step-03 h2, #wizards-ind-02 h2, ul.list-services-regn li a, .search_home:hover input, .search_home_services ul li:hover a, .footer-copyright .bottom-text i, .carousel-indicators .active, .footernav a:hover, .icon, .toll-free, .toll-free:hover, h1, h2, h2 span, .extra-item h3, .blue-link:hover, .blue-link, #search_part ul li a:hover, ul.search-result li b, .search-survey h1, .channel-tollfree a, .toll-free, .fax, .email, .list-com .suggestion, .login-bar a:hover, .footer a:hover, .search-survey h1, .contact-us h1, .contact-us a, .our-value-list h4, .visit-branch, h1.heading a:hover, .explore .links li a:hover, .titleh4 {
+
+	color: rgb(255, 255, 0);
+}
+.wizards ul li.active a, .wizards ul li.completed a {
+	text-align: center;
+}
+ul.list-services li:hover, ul.list-services li.active {
+	border: solid 1px #666;
+	color: rgb(255,255,255);
+}
+.toll-free:after {
+	background-image: url(img/bw/icons.png) !important;
+}
+ul.list-services li:hover {
+	background-color: rgb(255, 255, 0);
+}
+.btn-blue, .btn-grey, .btn-blue:hover, .btn-blue:visited, .btn-blue:focus, .btn-blue.active, .search_home, .btn-green, .wizards ul li.active a, .wizards ul li.completed a, .right-bar, #leftnav_part {
+	border: solid 1px #fff;
+}
+.popular-service .btn-grey {
+	border-left: solid 5px #fff;
+}
+#main_nav_part ul.main_nav_bar>li:first-child {
+	border-left: solid 1px #666;
+}
+#leftnav_part ul li, #show_login, #search_part, .main_nav_part_bg, .services-bg, #main_nav_part ul.main_nav_bar>li:hover>.second-menu {
+	border-bottom: solid 1px #666;
+}
+.right-bar, #leftnav_part, #main_nav_part ul.main_nav_bar>li {
+	border-right: solid 1px #666;
+}
+.grey-box, .main_nav_part_bg, .services-bg, #main_nav_part ul.main_nav_bar>li:hover>.second-menu {
+	border-top: solid 1px #666;
+}
+.right-bar, #leftnav_part {
+	overflow: hidden;
+}
+ul.suggestions li a.active {
+	background: yellow url(img/bw/close2.png) no-repeat right center !important;
+}
+button.suggestion {
+	background-image: url("img/bw/suggestion.png");
+}
+button.suggestion:hover {
+	background-image: url("img/suggestion_hover.png");
+	color: #fff !important;
+}
+button.complaints {
+	background-image: url("img/bw/complaints.png") !important;
+}
+button.complaints:hover {
+	background-image: url("img/bw/complaints_hover.png") !important;
+}
+.search-survey ul li {
+	background: url(img/bw/arrow-right.png) no-repeat left center;
+}
+.search-container:hover .search-icon, #search_part:hover .search-box, #search_part.active .search-box {
+	background: url("img/bw/search-hover.png") no-repeat left 10px transparent;
+}
+.search_home_services:hover .search_home {
+	background: url("img/bw/search-services-hover.png") no-repeat 10px center transparent;
+	background-size: auto 50%;
+}
+.search-service:hover .search-icon, #search_part.search-service:hover .search-box, #search_part.search-service.active .search-box {
+	background: url("img/bw/search-services-hover.png") no-repeat scroll left 5px / auto 70%;
+}
+/*.search-service .search-box {
+  background: url("img/bw/search-services.png") no-repeat left 10px transparent;
+}*/
+.blue-link.triangle-icon {
+	background: url("img/bw/icon-triangle.png") right 55% no-repeat transparent;
+}
+#leftnav_part ul li {
+	background: url("img/bw/left-nav.png") left top transparent;
+}
+#leftnav_part ul li:hover {
+	background: url("img/bw/left-nav.png") right top rgb(255, 255, 0);
+}
+.btn-services {
+	background-image: url("img/bw/services-icon.png");
+}
+body img {
+	filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+	filter: grayscale(100%);
+}
+.download-transport img, .social-media img, .complaint-content img {
+	-webkit-filter: invert(100%);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' ><filter id='invert'><feComponentTransfer><feFuncR type='linear' slope='-1' intercept='1'/><feFuncG type='linear' slope='-1' intercept='1' /><feFuncB type='linear' slope='-1' intercept='1' /></feComponentTransfer></filter></svg>#invert");
+	filter: invert();
+}
+#main_nav_part ul.main_nav_bar>li.has_submenu.highlight {
+	background: url(img/bw/dropdown.png) no-repeat 145px 37px #000;
+}
+#main_nav_part ul.main_nav_bar>li.has_submenu.highlight:hover a:hover {
+	color: rgb(255, 255, 0);
+}
+#main_nav_part ul.main_nav_bar>li>.second-menu ul>li:hover>a {
+	background: url(img/bw/link_over.png) no-repeat right 9px;
+	color: rgb(255, 255, 0);
+}
+#main_nav_part ul.main_nav_bar>li.has_submenu.highlight:hover {
+	background: url(img/bw/dropdown-over.png) no-repeat 145px 37px #000;
+}
+
+/*New Prototype changes starts*/
+#main_nav_part ul.main_nav_bar>li.short.has_submenu.highlight2 {
+    background: url(img/bw/dropdown.png) no-repeat 75px 36px #000;
+}
+#main_nav_part ul.main_nav_bar>li.short.has_submenu.highlight2:hover {
+    background: url(img/bw/dropdown-over.png) no-repeat 75px 36px #000;
+}
+#main_nav_part ul.main_nav_bar>li.short.has_submenu.highlight.highlight1.shortMenu{
+	background: url(img/bw/dropdown.png) no-repeat 75px 36px #000;
+}
+#main_nav_part ul.main_nav_bar>li.short.has_submenu.highlight.highlight1.shortMenu:hover{
+	background: url(img/bw/dropdown-over.png) no-repeat 75px 36px #000;
+}
+/*New Prototype changes ends*/
+
+.search_home {
+	background: url("img/bw/search-services.png") no-repeat 10px center transparent;
+	background-size: auto 50%;
+}
+.search-service .search-box {
+	background: url("img/bw/search-services.png") no-repeat scroll left 5px / auto 70%;
+}
+.wizards ul li.completed a {
+	background: rgb(0, 0, 0) url(img/bw/completed.png) no-repeat center center;
+	background-size: 100% 100%;
+	border: solid 1px rgb(255, 255, 0);
+}
+.toll-free:before, .fax:before, .email:before, .list-com .suggestion:before, .icon:before {
+	background-image: url(img/bw/icons.png);
+}
+.channel-callcenter {
+	background: url(img/bw/channel-tollfree.png) no-repeat left center;
+}
+.channel-visitbranch {
+	background: url(img/bw/channel-visitbranch.png) no-repeat left center;
+}
+.channel-smartappps {
+	background: url(img/bw/channel-smartapps.png) no-repeat left center;
+}
+.backmenu {
+	background: url(img/bw/back.png) no-repeat center 10px;
+}
+.download {
+	background: url(img/bw/download.png) no-repeat left center;
+}
+ul.list-services li.services-dco a {
+	background-image: url(img/bw/services-dco.png);
+}
+ul.list-services li.services-pt a {
+	background-image: url(img/bw/services-pt.png);
+}
+ul.list-services li.services-corp a {
+	background-image: url(img/bw/services-corp.png);
+}
+ul.list-services li.services-alpha a {
+	background-image: url(img/bw/services-alpha.png);
+}
+ul.list-services li.active.services-dco a, ul.list-services li.services-dco a:hover {
+	background-image: url(img/bw/services-dco-active.png);
+}
+ul.list-services li.active.services-pt a, ul.list-services li.services-pt a:hover {
+	background-image: url(img/bw/services-pt-active.png);
+}
+ul.list-services li.active.services-corp a, ul.list-services li.services-corp a:hover {
+	background-image: url(img/bw/services-corp-active.png);
+}
+ul.list-services li.active.services-alpha a, ul.list-services li.services-alpha a:hover {
+	background-image: url(img/bw/services-alpha-active.png);
+}
+.icon-salik {
+	background: url(img/bw/icons/ico-salik.png) no-repeat left center;
+}
+.icon-metro-agency {
+	background: url(img/bw/icons/ico-metro-agency.png) no-repeat left center;
+}
+.icon-licencing-agency {
+	background: url(img/bw/icons/ico-licencing-agency.png) no-repeat left center;
+}
+.icon-dubai-taxi {
+	background: url(img/bw/icons/ico-dubai-taxi.png) no-repeat left center;
+}
+.icon-dubai-metro {
+	background: url(img/bw/icons/ico-dubai-metro.png) no-repeat left center;
+}
+.icon-taxi-agency {
+	background: url(img/bw/icons/ico-taxi-agency-services.png) no-repeat left center;
+}
+.icon-rail-agency {
+	background: url(img/bw/icons/ico-rail-agency-services.png) no-repeat left center;
+}
+.icon-corporate-support {
+	background: url(img/bw/icons/ico-corporate-support.png) no-repeat left center;
+}
+.select2-results__option {
+	color : #000;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+	color: #000 !important;
+}
+.suggestions-all:hover a, .suggestions-all a.active, .withnotific em{
+	background-color: yellow !important;
+	color: #000;
+}
+/*a:hover {
+	color: rgb(255, 255, 0) !important;
+}*/
+#extra_part .extra-item .btn-grey {
+	background: #fff !important;
+	color: #000 !important;
+}
+#extra_part .extra-item .btn-grey:hover {
+	background: #000 !important;
+	color: #fff !important;
+	border: solid 1px #fff !important;
+}
+.icon-water-taxi {
+	background: url(img/icons/1.png) no-repeat right center;
+}
+.icon-nol-services {
+	background: url(img/icons/2.png) no-repeat right center;
+}
+.icon-fines-inq {
+	background: url(img/icons/3.png) no-repeat right center;
+}
+.icon-enoc {
+	background: url(img/icons/4.png) no-repeat right center;
+}
+.icon-seasonal-parking {
+	background: url(img/icons/5.png) no-repeat right center;
+}
+.icon-transfer-driving {
+	background: url(img/icons/6.png) no-repeat right center;
+}
+.icon-vhl-testing {
+	background: url(img/icons/7.png) no-repeat right center;
+}
+.icon-mparking {
+	background: url(img/icons/8.png) no-repeat right center;
+}
+#agency-popular-services .btn-services:hover, #extra_part .btn-blue:hover {
+	color: #fff;
+}
+.popular-service .btn-services:hover {
+	color: #fff !important;
+}
+#allServicesList .btn-grey:hover {
+	color: #000;
+}
+#foo {
+	background-color: #000;
+	border: solid 1px #fff;
+}
+
+
+/* Portal Styles */
+.wpthemeMainContent{
+	background-color: #000 !important;
+	color:#fff !important;
+}
+
+.wpsPortletText, .wpsEditText, .wpsPortletSmText, .wpsEditSmText, .wpsPortletTinyText {
+    color: #fff !important;
+}
+
+
+
+/*  Element Blue */
+
+.content, .content p, .content h3, .content td {
+    color: white !important;text-align: justify !important;
+}
+
+.contentItem {
+    color: white !important;
+}
+
+.content h2 {
+	color: yellow !important;
+}
+
+.content a {
+	color: yellow;
+}
+
+.content a:hover {
+	color: #E8E8E8;
+}
+
+.landing a:hover {
+    color: #E8E8E8 !important;
+}
+
+.landing a {
+    color: yellow !important;text-align: justify;
+}
+
+.landing p {
+    color: white !important;text-align: justify !important;
+}
+
+.aboutNavContainer * {
+    color: white !important;
+    background-color: black !important;
+    border-color: white !important;
+}
+
+.aboutNavContainer a:hover {
+	color: yellow !important;
+}
+
+.aboutList-heading-red {
+	border: solid white 1px;
+    padding: 1px;
+}
+
+.aboutList-heading-red span:hover {
+    color: yellow !important;
+}
+
+#aboutNav li ul li a {
+	color: white !important;
+}
+
+#aboutNav li ul li a:hover {
+    color: yellow !important;
+}
+
+li.aboutLvl2 {
+    list-style-image: none;
+    list-style-type: circle;
+    color: white !important;
+}
+
+
+/* about nav blind english */
+span.showNavBtn.showRight {
+   border-bottom: solid white 2px;
+   border-right: solid white 1px;
+   border-top: solid white 1px;
+}
+
+/* about nav blind arabic */
+span.showNavBtn.showLeft {
+   border-bottom: solid white 2px;
+   border-left: solid white 1px;
+   border-top: solid white 1px;
+}
+
+.site-control {
+    -webkit-filter: grayscale(100%);
+}
+
+.tab-component-tab-dummy .tab-bg-image-red {
+   background-color: white !important;
+}
+
+.tab-component-tab-dummy .tab-bg-image-red p {
+   color: black !important;text-align: justify;
+}
+
+.tab-bg-image-gray {
+	background-color: black !important;
+	border: solid #E8E8E8 1px;
+}
+
+.content table {
+    background-color: black !important;
+    border: white !important;
+}
+
+.tab-component-tab-dummy > p {
+    color: white !important;text-align: justify;
+}
+
+.tab-component-content-dummy, .tab-component-content-dummy > p {
+    color: black;text-align: justify;
+}
+
+.tab-component-content-dummy > a {
+    color: yellow !important;
+}
+
+.tab-component-content-dummy {
+   /* background-color: black !important;
+    border-color: white !important;*/
+}
+
+.form-row label span {
+   color: white !important;
+}
+
+.crumbTrail {
+    color: white;
+}
+#tab-component {
+   -webkit-filter: grayscale(100%);   
+}
+#tab-component p {
+/*color: black !important;*/
+}
+
+.popularServices.vp-greyBox {
+    border: white 1px solid !important;
+    background-color: black !important;
+}
+
+.popularServices.vp-greyBox h3 {
+    color: yellow !important;
+}
+
+.popularServices.vp-greyBox a:hover {
+    color: yellow !important;
+}
+
+.popularServices.vp-greyBox a {
+    color: white !important;
+}
+
+.label {
+  color: white !important;
+}
+
+.vehiclePortal.vp-greyBox {
+    border: white 1px solid !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+.vehiclePortal.vp-greyBox h3 {
+    color: yellow !important;
+}
+
+.vehiclePortal.vp-greyBox a:hover {
+    color: yellow !important;
+}
+
+.vehiclePortal.vp-greyBox a {
+    color: white !important;
+}
+
+.result {
+	color: white !important;
+}
+
+.form-row {
+	color: white !important;
+}
+
+li#loginsection {
+   background-color: black !important;
+   border-color: white !important;
+}
+
+button.login_btn {
+   background-color: white !important;
+   color: black !important;
+}
+
+div#main_nav_part li {
+   border-color: white !important;
+}
+
+.address-box a {
+   color: yellow !important;
+}
+.address-box p {
+   color: white !important;text-align: justify;
+}
+
+div#userAuthenticationFailedDiv {
+    color: yellow !important;
+}
+
+p {
+	color: white;
+}
+
+.extra-item .btn-grey:hover {
+    background-color: black !important;
+    color: white !important;
+    border: solid 1px white !important;
+}
+
+strong[style='color:#000;'] {
+    color: yellow !important;
+}
+
+table {
+	color: white;
+	background-color: black;
+}
+
+a {
+	color: yellow !important;
+}
+
+a:hover {
+	color: white !important;
+}
+
+a[style] {
+	color: yellow !important;
+}
+
+a:hover[style] {
+	color: white !important;
+}
+span.wpthemeCrumbTrailSeparator {
+	color: #8a8a8a !important;
+}
+
+.breadcrumb a, .breadcrumb p {
+    color: white !important;
+}
+
+.breadcrumb a:hover {
+    color: yellow !important;
+}
+
+.crumbTrail a {
+	color: #8a8a8a !important;
+}
+
+.crumbTrail a:hover {
+    color: yellow !important;
+}
+
+.breadcrumb {
+    background-color: black !important;
+    color: white !important;
+    border-top: solid 1px white !important;
+    border-bottom: solid 1px white !important;
+}
+
+#polls .btn-blue {
+	color: black !important;
+}
+
+#polls .btn-blue:hover {
+	color: white !important;
+}
+
+#polls .btn-grey {
+	color: black !important;
+}
+
+#polls .btn-grey:hover {
+	color: white !important;
+}
+/********************** Manage Account and Logout links CBM fix starts here********************************/
+#show_manage_account span, #show_logout span {
+    color: yellow !important;
+}
+#show_logout span:hover {
+    background: url("img/logout_over.png") no-repeat center yellow !important;
+    color: #fff !important;
+}
+#show_manage_account span:hover {
+    background: url("img/my-account-white.png") no-repeat center yellow !important;
+    color: #fff !important;
+}
+#services {
+    color: yellow !important;
+}
+.crumbTrail a {
+    color: white !important;
+}
+h1, #pagetitle, .tableHeaderLeftStyle {
+    color: yellow !important;
+}
+.form-row-buttons .button:hover, .buttonStyleWide:hover {
+    color: white !important;
+    border: solid 1px #fff !important;
+    background-color: #000 !important;
+}
+.form-row-buttons .button, .buttonStyleWide {
+    background-color: rgb(255, 255, 255) !important;
+    color: #000 !important;
+    border: solid 1px #fff !important;
+	margin-left: 5px;
+}
+#show_login:hover{
+	background:rgb(255, 255, 0);
+	color:black;	
+}
+#show_login{color:yellow;}
+/********************** Manage Account and Logout links CBM fix ends here********************************/
+
+@media screen and (max-width: 768px) {
+	#main_nav_part ul.main_nav_bar>li.has_submenu.highlight, #main_nav_part ul.main_nav_bar>li.has_submenu.highlight:hover {
+	   background-position: 93% 70% !important;
+	}
+	#main_nav_part ul.main_nav_bar>li.short.has_submenu.highlight2 {
+    background: url(img/bw/dropdown.png) no-repeat #000;
+    background-position: 93% 70%;
+}
+}
+/* Public Transport Starts*/
+#public-transport h1, h1.heading, .travel-info h1, ul.support-listing li .support-content a, ul.support-listing li a.title, a.get-started, #public-transport .nol-card-faq li a, #public-transport h3, .travel-content ul li a {
+	/*color: #fff;*/
+	color:rgb(255,255,0) !important;
+}
+.travel-content ul li a:hover, a.get-started:hover{
+	color: white !important;
+}
+#public-transport .modes-of-travel li a, #public-transport .modes-of-travel li a p , .travel-info .travel-info-list li a {
+	color: #000 !important;
+}
+#public-transport .modes-of-travel li a:hover {
+    background-color: #f1f1f1 !important;
+    font-weight: bold;
+}
+#public-transport .nol-card-faq li a:hover, ul.support-listing li a.title:hover, ul.support-listing li .support-content a:hover {
+	color: rgb(255, 255, 0) !important;
+}
+#public-transport .modes-of-travel li a.plan-your-journey span {
+	background: url("img/bw/public-transport/plan-your-journey.png") no-repeat center center !important;
+}
+#public-transport .modes-of-travel li a.top-nol span {
+	background: url("img/bw/public-transport/top-nol.png") no-repeat center center !important;
+}
+#public-transport .modes-of-travel li a.book-a-taxi span {
+	background: url("img/bw/public-transport/book-a-taxi.png") no-repeat center center !important;
+}
+#public-transport .modes-of-travel li a.book-a-water-taxi span {
+	background: url("img/bw/public-transport/book-a-water-taxi.png") no-repeat center center !important;
+}
+#public-transport .modes-of-travel li a.download-timetables span {
+	background: url("img/bw/public-transport/download-timetables.png") no-repeat center center !important;
+}
+#public-transport .modes-of-travel li a.contact-us span {
+	background: url("img/bw/public-transport/contact-us.png") no-repeat center center !important;
+}
+.travel-info .travel-info-list li a.metro {
+	background: url("img/bw/public-transport/travel-mode/metro.png") no-repeat center 24px #f6f6f7 !important;
+}
+.travel-info .travel-info-list li a.bus {
+	background: url("img/bw/public-transport/travel-mode/bus.png") no-repeat center 24px #f6f6f7 !important;
+}
+.travel-info .travel-info-list li a.tram {
+	background: url("img/bw/public-transport/travel-mode/tram.png") no-repeat center 24px #f6f6f7 !important;
+}
+.travel-info .travel-info-list li a.water-bus {
+	background: url("img/bw/public-transport/travel-mode/water-bus.png") no-repeat center 24px #f6f6f7 !important;
+}
+.travel-info .travel-info-list li a.ferry {
+	background: url("img/bw/public-transport/travel-mode/ferry.png") no-repeat center 24px #f6f6f7 !important;
+}
+.travel-info .travel-info-list li a.water-taxi {
+	background: url("img/bw/public-transport/travel-mode/water-taxi.png") no-repeat center 24px #f6f6f7 !important;
+}
+.travel-info .travel-info-list li a.ferry {
+	background: url("img/bw/public-transport/travel-mode/ferry.png") no-repeat center 24px #f6f6f7 !important;
+}
+.travel-info .travel-info-list li a.abra {
+	background: url("img/bw/public-transport/travel-mode/abra.png") no-repeat center 24px #f6f6f7 !important;
+}
+.travel-info .travel-info-list li a.taxi {
+	background: url("img/bw/public-transport/travel-mode/taxi.png") no-repeat center 24px #f6f6f7 !important;
+}
+.travel-info .travel-info-list li a.metro:hover { background: url("img/bw/public-transport/travel-mode/metro-hover.png") no-repeat center 24px #f6f6f7 !important; } 
+.travel-info .travel-info-list li a.bus:hover { background: url("img/bw/public-transport/travel-mode/bus-hover.png") no-repeat center 24px #f6f6f7 !important; } 
+.travel-info .travel-info-list li a.tram:hover { background: url("img/bw/public-transport/travel-mode/tram-hover.png") no-repeat center 24px #f6f6f7 !important; } 
+.travel-info .travel-info-list li a.water-bus:hover { background: url("img/bw/public-transport/travel-mode/water-bus-hover.png") no-repeat center 24px #f6f6f7 !important;} 
+.travel-info .travel-info-list li a.water-taxi:hover { background: url("img/bw/public-transport/travel-mode/water-taxi-hover.png") no-repeat center 24px #f6f6f7 !important;} 
+.travel-info .travel-info-list li a.ferry:hover { background: url("img/bw/public-transport/travel-mode/ferry-hover.png") no-repeat center 24px #f6f6f7 !important;}  
+.travel-info .travel-info-list li a.abra:hover { background: url("img/bw/public-transport/travel-mode/abra-hover.png") no-repeat center 24px #f6f6f7 !important;}  
+.travel-info .travel-info-list li a.taxi:hover { background: url("img/bw/public-transport/travel-mode/taxi-hover.png") no-repeat center 24px #f6f6f7 !important; } 
+
+a.available-center {
+	background-color: #fff !important;
+	color: #000 !important;
+}
+a.available-center:hover {
+	background-color: #000 !important;
+	color: #fff !important;
+	border: 1px solid #fff !important;
+}
+a.get-started {
+	background: transparent url("img/bw/arrow-right.png") no-repeat right center !important;
+}
+ul.support-listing li .support-content a span.arrow {
+	background: transparent url("img/bw/arrow-right.png") no-repeat scroll right center;
+}
+ul.support-listing li a.title.active {
+	background: transparent url("img/bw/vr/collapse.png") no-repeat scroll left 7px;
+}
+ul.support-listing li a.title {
+	background: transparent url("img/bw/vr/expand.png") no-repeat scroll left 7px;
+}
+ul.support-listing li a.title {
+	color: rgb(255, 255, 0);
+}
+.contact-info  p.channel-tollfree {	
+	color: yellow !important;
+}
+/* Public Transport Ends*/
+
+.explore-rta-content .explore-list li a{
+	color: #000 !important;
+}
+.main-holder p, .apps-list .app-grid p, .wrap-text p, .about-RTA h2 , .list-docs{
+	color: rgb(255,255,255) !important;
+}
+.main-holder h1, .download-links, p.extra-large, .extra-large, .apps-list h3, .icoList li a, .content-area h4, .link, .services-holder h1, .service-type li h3, .service-type li a, .video-holder .block h2 {
+	    color: rgb(255, 255, 0) !important;
+}
+.download-links {
+    opacity: 1 !important;
+}
+.download-links img, .gallery__controls img {
+    opacity: 1 !important;
+    -moz-filter: invert(100%);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.app-grid  p a{
+	color: #000 !important; 
+	background-color:#fff !important;
+}
+.app-grid p a:hover{
+	color: #fff !important; 
+	background-color:#000 !important;
+}
+
+
+.datepicker .picker-switch, .datepicker .prev, .datepicker .next, .datepicker .day:hover{
+	background: yellow !important;
+}
+.btn-grey-dark, #leftnav_part ul li:hover a, #servicesKWSuggestions li a, .datepicker .month:hover, .datepicker .year:hover, .datepicker .day:hover,.picker-switch .glyphicon-trash:hover, .picker-switch .glyphicon-remove:hover{
+	 color: #000 !important;
+}
+#servicesKWSuggestions li a:hover, .datepicker .dow, .datepicker .month, .datepicker .year, .time, .picker-switch .glyphicon-trash, .picker-switch .glyphicon-remove, #searchResults h4{
+	color: #fff !important;
+}
+.btn-grey-dark:hover, .contact-block{
+	color: #fff !important; 
+	border: 1px solid  #fff !important; 
+	background: #000 !important;
+}
+#allServicesList .btn-grey, .smart-service-block, .news-single, .faq-landing, .faq-topics-tabs, .media-contact-block, .faq-topic-content, .our-service a, table#table-almasar td, #rtaChat{
+	background: #000 !important;
+}
+h3, h2, .comminity-list li a p:hover, .datepicker-years, table#table-almasar font {
+	color: yellow !important;
+}
+.comminity-list a.icon-social-twitter {
+	background-image: url(../img/social/ico-twitter-black-hover.png) !important;
+}
+.comminity-list a.icon-social-facebook {
+	background-image: url(../img/social/ico-facebook-black-hover.png) !important;
+}
+.comminity-list a.icon-social-instagram {
+	background-image: url(../img/social/ico-instagram-black-hover.png) !important;
+}
+.btn-see-all{
+	background: url("img/bw/arrow-right.png") no-repeat right center !important;
+}
+a.read-more {
+	background: url("img/bw/arrow-right.png") no-repeat right center transparent !important;
+}
+.nav-left li:hover a, .nav-left a.active {
+    background: url("img/bw/arrow-right.png") no-repeat right center !important;
+}
+.circles {
+    border-color: #fff !important;
+}
+.number {
+    background: #fff !important;
+	color: #000 !important;
+}
+.info-area input.btn.btn-blue {
+    background-color: #000000;
+    color: #ffffff;
+	border: solid 1px #ffffff !important;
+}
+
+.info-area input.btn.btn-blue:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: solid 1px #ffffff !important;
+}
+
+.form-row input[type="radio"]:checked + label span {
+    background: url(img/bw/check_radio_sheet2.png) -19px top no-repeat;
+}
+.form-row input[type="radio"] + label span { 
+    background: url(img/bw/check_radio_sheet2.png) left top no-repeat;
+}
+input:focus, select:focus { outline-color:#ffff00; }
+select:focus option:focus {outline-color:#ffff00;}
+#main .field-select { background-color: #000000;}
+.select2-container--default.select2-container--disabled .select2-selection--single .select2-selection__rendered, .finePayment input.notAllowed { color:#9c9c9c !important; }
+.txt-warning {
+	color: yellow !important;
+}
+.error {
+    border: solid 1px rgb(255,255,255) !important;
+}
+.errorMsgProcess {background: url("img/bw/error.png")no-repeat left 8px; color: rgb(255, 255, 0) !important; }
+.starbox .stars .star_holder .star {
+	background-image: url('img/bw/star-rating.png') !important;
+}
+.starbox .colorbar { background: #696969 !important; }
+
+/*New brand styles*/
+.slider-content, .map-btn a, .social, .footer-chat a, .latest-slider-content, .latest-slider-form {
+    background-color: #000 !important;
+}
+section {
+    background: #000 !important;
+}
+.content-wrap .upd-feed-col *, .discover-form fieldset label , .upd-feed-content p, .upd-icon, .services-detail-head p, .section-defaults p{
+    color: #fff !important;
+}
+.upd-feed-wrapper ul li{
+	border-bottom: 6px solid #fff !important;
+}
+.mobile-services , .car-services li span{
+    color: #000;
+}
+.populer-wrapper a:hover{
+	background: #000 !important;
+	border:1px solid #fff !important;
+}
+.slider-content-wrap, .drive-n-car-service .img-title, .icon-label, .drive-n-car-service .car-service-content ul li, .notification-box{
+    background-color: #000 !important;
+}
+.service-sticky, .sticky-detail {
+    background: #000 !important;
+}
+.footer-service ul li a:hover , ul.suggestions li a, .suggestions-all a{
+    background-color: #fff !important;
+	color:#000 !important;
+}
+.footer-chat, .footer-service, .footer-call {
+    float: right;
+    border-left: 1px solid;
+}
+.footer-chat {
+    width: 4.4%;
+    border-right: 1px solid;
+}
+.support-ser-col {
+    border-color: #000000;
+}
+.support-hover a , .support-wrapper ul li a, .swiper-pagination-bullet, .our-services .drive-n-car-service .img-title, .blue-dark-box , .red-bg, .blue-bg, .notification-box:hover{
+    background-color: #53565a !important;
+}
+.footer-service-happy ul li a:hover {
+	background: url(img/sticky-happy.png) no-repeat center center #53565a !important;
+}
+.support-home a:hover {
+    background-color: #ffffff !important;
+    color:#000 !important;
+}
+.support-wrapper ul li a:hover, .footer-service ul li a:hover, .slider-paly-btn:hover, #set-1 ul li a, #set-2 ul li a {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+.footer-service ul li:nth-child(3) a{
+	background-image: url(img/bw/vr/radio.png);
+}
+.spot-smart {
+    background-color: #000;
+    color: #fff;
+}
+.spot-content .spot-btn a , .service-sticky-nav ul li a:hover, .footer-copyright, .footer-service-happy ul li a, .header-container{
+    background-color: #000 !important;
+}
+.btn2 a , .btn-custom{
+    color: #000 !important;
+    background: #fff !important;
+}
+.btn2 a:hover, .btn-custom:hover{
+    background: #000 !important;
+	border:1px solid #fff !important;
+	color: #fff !important;
+}
+.drive-n-car-service .car-service-text h3, .smart-app .swiper-wrapper .swiper-slide h3 , .accordion-multi-box h3, .section-defaults p strong{
+    color: #000 !important;
+}
+.car-services li a:hover, .car-services li a.active  {
+	border-bottom: 6px solid #000 ;
+}
+.content-wrap .upd-feed-col {
+    border-color: #fff;
+}
+.spotlight {
+    background: none
+}
+.populer-wrapper h4 {
+    color: yellow;
+}
+.swiper-pagination-bullet-active{
+	background-color: yellow !important;
+}
+.left-menu ul li h4:hover, .left-menu ul li h4{
+    color: yellow !important;
+}
+.left-menu ul li h4:before, .left-menu ul li h4:after,
+.left-menu ul li h4:hover:before, .left-menu ul li h4:hover:after{
+    background: yellow !important;
+}
+.categories-list .col-grid25 .category-item, .categories-list .col-grid25 .category-item.blue-bg, .grey-dark-box, .average-time-box ul li{
+    background: #53565a !important;
+    color: #fff !important;
+}
+.btn-view-all, .btn-custom, .btn-custom:hover, .btn-custom:focus, .blue-dark-box{
+    background: #53565a;
+}
+.section-defaults ul.bullets li:before{
+    background-color: #fff;
+}
+.services-detail-head ul li a.active, .services-detail-head ul li a:hover{
+    border-color: yellow !important;
+}
+.our-services .drive-n-car-service ul li{
+	background: rgba(0, 0, 0, 0) url("img/arrow-white.png") no-repeat scroll left 4px !important;
+}
+.control input:checked ~ .control__indicator{
+	background: #000 none repeat scroll 0 0 !important;
+}
+#main_nav_part ul.main_nav_bar .first-sub-menu li a {
+    color: #000 !important;
+}
+#main_nav_part ul.main_nav_bar .list-space > li.arrow-sub-menu{
+	background: url("../img/sub-menu-arrow.png") no-repeat 20px 13px !important;
+}
+#main_nav_part ul.main_nav_bar .list-space > li.arrow-sub-menu:hover.active-fast,
+#main_nav_part ul.main_nav_bar .list-space > li.arrow-sub-menu:hover{
+	background: #f5f5f5 url("../img/sub-menu-arrow.png") no-repeat 20px 13px !important;
+}
+.faqs-search h4::before, .faqs-search h4::after{
+	background-color: #fff !important;
+}
+.faqs-search .question-search li, .close-sticky {
+	color: #fff !important;
+}
+.faqs-search .question-search h4, .faqs-search h4.ui-state-active{
+	color: yellow !important;
+}
+.faqs-search h4.ui-state-active::after{
+	background-color: yellow !important;
+}
+.faqs-search fieldset:after{
+	background:url("img/search.png") no-repeat 0 0 !important;
+}
+.overlay-sticky-wrapper .overlay-questions {
+	background: rgb(0, 0, 0)  !important;
+}
+.section-defaults .blue-dark-box ul li::before, .section-defaults .blue-dark-box ol li::before,  #serviceFees ul li::before, #output ul li::before, #validity ul li::before {
+    background-color: #fff !important;
+}
+#terms-n-conditions ul li::before, #process ul li::before, #idos-faqs ul li::before {
+    background-color: #000 !important;
+}
+/*New brand styles*/
+/*NOL services and Trip Planner begins*/
+.metro-banner .banner-content, .metro-banner .banner-content .share, .smart-application, .title-area.with-tabs, .well, .title-area .sticky-menu.sticky, .notification-panel .panel-head, .station-zone, .station-selector-wrap, .trip-summary .nav-collapse .nav-tabs li.active a{
+	background-color: #000 !important;
+}
+.trip-summary .nav-collapse .nav-tabs li. a{
+	    background-color: #666;
+}
+.metro-banner .banner-content .share, .notification-panel .panel-head{
+	    border: 1px solid #fff;
+}
+.banner-content, .smart-application, .title-area.with-tabs{
+	border-bottom: 1px solid #666;
+}
+.station-zone{
+	    border-top: 1px solid #666;
+}
+.metro-banner .banner-content .btn-default,.card-details  .btn-primary, .card-details .btn-default-filled, .wrap-rta-centre  .btn-primary, .station-selector-wrap .btn-primary, .trip-summary  .btn-primary, .trip-summary  .btn-default{
+	background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #fff;
+}
+.metro-banner .banner-content .btn-default:hover,.card-details  .btn-primary:hover, .card-details .btn-default-filled:hover, .wrap-rta-centre  .btn-primary:hover, .station-selector-wrap .btn-primary:hover, .trip-summary  .btn-primary:hover, .trip-summary  .btn-default:hover{
+	background-color: #000 !important;
+    border: 1px solid yellow;
+    color: yellow !important;
+}
+.RTA-Rails-nol-landing .drive-n-car-service .em{
+	z-index:0 !important;
+}
+ .RTA-Rails-nol-landing .drive-n-car-service .car-service-content, .RTA-Rails-nol-landing .drive-n-car-service .img-title, .swiper-smartapp .swiper-slide, .trip-summary .grey-bg{
+	 background-color: #000;
+    color: #fff !important;
+    border: 1px solid #666;
+ }
+ .RTA-Rails-nol-landing .car-service-content ul.general-links li a {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.title-area .tabs-menu .navigation li.active a{
+	color: yellow !important;
+}
+.title-area .tabs-menu .navigation #magic-line{
+	background-color: yellow !important;
+}
+p, .title-area .tabs-menu .navigation li a, .left-icon-widget.column .wrap-data p, ul.list li{
+	color: #fff !important;
+}
+.wrap-icon img, ul.list.tick li, .grey-form.form-inline .form-group label, .trip-summary .column.col-2 .col.first .nav-collapse .nav-tabs li a .route .icon, .trip-summary .column.col-2 .col.first .nav-collapse .tab-content aside i{
+	    filter: brightness(0) invert(1);
+}
+.card-details.grey-filled{
+	background-color: #3c3c3c !important;
+}
+#RTAMetroMap{
+	filter: grayscale(1);
+}
+.trip-summary  .default-bg{
+	    background-color: #53565a;
+}
+/*NOL services and Trip Planner  ends*/
+/*Styles for new reCaptcha - begins*/
+.g-recaptcha{
+	    filter: grayscale(100%);
+}
+iframe{
+	    filter: grayscale(100%);
+}
+
+/*Styles for new reCaptcha - ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+#big-search{
+	background: #969695;
+}
+.big-search__title, .big-search__undert,.b-title-big,.b-title-small,.about-text p,.round-ul li,
+.information-block p,.information-tab span,.faq-title,.faq-asking li a,.faq-document li a,.faq-document li span,.exploring-item h5,
+.icon-pdf:before,.icon-ask:before,.search-ul h5,.icon-search:before,.services-tab a span,.other-tabs .b-title-big{
+	color:#fff;
+}
+
+.line-title span,.title-tab{
+	color: #ffff00;
+}
+.b-title__gr .b-title-big,.b-title__gr .b-title-small{
+	color:#000;
+}
+.red-btn:hover{
+	background: #000;
+	border-color:#000;
+}
+.ok-ul > li:before{
+	background-image: url('../img/galochka-w.svg');
+}
+.ok-ul > li:after{
+	border-color:#fff;
+}
+.round-ul li:before{
+	background: #fff;
+}
+.line-title span{
+	background: #000;
+}
+.b-title__bg{
+	background: #545454;
+}
+.exploring-item,.services-tab a{
+	background: #525252!important;
+}
+.exploring-item:hover{
+	background: #3f3e3e;
+}
+.icon-fines:before{
+	color:#fff;
+}
+#bread .breadcrumb{
+	border:none!important;
+}
+.breadcrumb__li--active{
+	color:#fff;
+}
+.b-title__b-line{
+	border-color:#fff;
+}
+.search-ul span{
+	color:#000;
+	background: #fff;
+}
+.search-ul span:after{
+	border-left-color: #fff;
+}
+.services-ul li i:before{
+	color:yellow;
+}
+.services-tab a:hover, .services-tab li.active a{
+	background: #2f2f2f!important;
+}

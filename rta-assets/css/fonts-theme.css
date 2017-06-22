@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'GE_SS_Text_Light';
+	src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/GE_SS_Text_Light.eot');
+	src: local('â˜º'), url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/GE_SS_Text_Light.eot') format('embedded-opentype'), 
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/GE_SS_Text_Light.woff') format('woff'), 
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/GE_SS_Text_Light.ttf') format('truetype'), 
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/GE_SS_Text_Light.svg#GE_SS_Text_Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MetaPro-Light';
+	src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Light.eot');
+	src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Light.eot') format('embedded-opentype'), 
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Light.woff') format('woff2'), 
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Light.woff') format('woff'), 
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Light.ttf') format('truetype'), 
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Light.svg#MetaPro-Light') format('svg');
+}
+@font-face {
+	font-family: 'MetaPro-Medium';
+	src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Medium.eot');
+	src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Medium.eot') format('embedded-opentype'),  
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Medium.woff') format('woff2'),  
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Medium.woff') format('woff'),  
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Medium.ttf') format('truetype'),  
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Medium.svg#MetaPro-Medium') format('svg');
+}
+@font-face {
+	font-family: 'MetaPro-NormalItalic';
+	src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-NormalItalic.eot');
+	src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-NormalItalic.eot') format('embedded-opentype'),  
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-NormalItalic.woff2') format('woff2'),  
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-NormalItalic.woff') format('woff'),  
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-NormalItalic.ttf') format('truetype'),  
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-NormalItalic.svg#MetaPro-NormalItalic') format('svg');
+}
+@font-face {
+	font-family: 'MetaPro-Book';
+	src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Book.eot');
+	src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Book.eot') format('embedded-opentype'), 
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Book.woff') format('woff'),  
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Book.ttf') format('truetype'),  
+		url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/MetaPro-Book.svg#MetaPro-Book') format('svg');
+}
+
+@font-face {
+    font-family: 'RTA';
+    src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Light.eot');
+    src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Light.eot?#iefix') format('embedded-opentype'),
+    url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Light.woff') format('woff'),
+    url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RTA';
+    src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Black.eot');
+    src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Black.eot?#iefix') format('embedded-opentype'),
+    url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Black.woff') format('woff'),
+    url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RTA';
+    src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Bold.eot');
+    src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Bold.woff') format('woff'),
+    url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RTA';
+    src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Regular.eot');
+    src: url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Regular.woff') format('woff'),
+    url('/wps/contenthandler/dav/fs-type1/themes/RTA.Responsive.Theme/rta-assets/css/fonts/RTA-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

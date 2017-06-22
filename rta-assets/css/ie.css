@@ -1,0 +1,127 @@
+.main-page {
+	width: auto !important;
+}
+.social-midea li, .header-right li, .list-services li {
+	float: left;
+}
+.carousel-indicators li {
+	float: left;
+}
+.carousel-indicators {
+	left: 40%;
+	margin-left: 0 !important;
+}
+#left_section {
+}
+#main_nav_part ul.main_nav_bar>li>a>span {
+	display: block;
+	float: left !important;
+}
+#main_nav_part ul.main_nav_bar img, #main_nav_part ul.main_nav_bar img.img_over {
+	float: left !important;
+	padding-top: 10px !important;
+}
+#main_nav_part ul.main_nav_bar>li>a>p {
+	padding-top: 10px !important;
+}
+.popular-services .btn-default {
+	margin-right: 10px !important;
+	box-sizing: border-box !important;
+	display: inline-block !important;
+}
+.app-data .public-transport {
+	width: 250px !important;
+	text-align: left !important;
+	padding-left: 10px;
+}
+#rtaApps-thumbs li {
+	float: left;
+}
+.icons a {
+	margin-right: 1px !important;
+}
+.single-new {
+	width: 310px !important;
+}
+.single-new .new-content {
+	text-align: left !important;
+}
+.search_home input {
+	width: 73%;
+}
+#show_login {
+	overflow: hidden !important;
+}
+.login-bar {
+	padding: 50px 29px 0 22px;
+}
+#left_section .top-bar {
+	overflow: hidden !important;
+	height: 100px !important;
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+}
+.login-bar {
+	left: 0;
+	top: 100px;
+	position: absolute
+}
+.form-control {
+	width: 180px;
+}
+.form .form-control {
+	width: 100%;
+	box-sizing: border-box;
+}
+.col-lg-4, .col-md-4, .col-sm-4, .col-xs-4 {
+	width: 32%;
+}
+p.num {
+	font-size: 40px !important;
+}
+.carousel-inner .item {
+	text-align: center;
+}
+.login-bar a {
+	display: block;
+	padding: 1px 0px;
+}
+/*#leftnav_part {margin-top:50px !important; }*/
+
+/* EB - About RTA changes starts here*/
+#left_section .main-content {
+	right:0;
+}
+.col-lg-2, .col-md-2, .col-sm-2 {
+	width: 16% !important; 
+}
+.col-lg-3, .col-md-3, .col-sm-3 {
+	width: 24% !important; 
+}
+.col-lg-5, .col-md-5, .col-sm-5 {
+	width: 40%;
+}
+.col-lg-6, .col-md-6, .col-sm-6 {
+	width: 49%;
+}
+.col-lg-7, .col-md-7, .col-sm-7 {
+	width: 57% !important; 
+}
+.col-lg-8, .col-md-8, .col-sm-8 {
+	width: 69% !important; 
+}
+.col-lg-9, .col-md-9, .col-sm-9 {
+	width: 74% !important; 
+}
+.col-lg-10, .col-md-10, .col-sm-10 {
+	width: 79% !important; 
+}
+.pull-left {
+	float:left; 
+}
+input [type='text'] {
+	padding:10px !important;
+}
+/* EB - About RTA changes ends here*/

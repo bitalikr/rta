@@ -1106,6 +1106,7 @@
 	}
 	.grey-bg{
 		position: relative;
+		margin-top: 15px;
 	}
 	.services-tab:before{
 		content: '';
@@ -1131,12 +1132,19 @@
 		margin-top: 20px;
 	}
 	.services-ul li{
-		padding:0 0 0 50px;
+		padding:0 0 0 60px;
 		display: block;
 		margin-bottom: 10px;
 	}
 	.services-ul li i{
-		width: 50px;
+		width: 60px;
+		top:2px;
+	}
+	.services-tab a i{
+	    margin: 0 auto 18px;
+	}
+	.nav-tabs>li>a{
+		padding-bottom: 27px;
 	}
 	.mobile-non{
 		display: none;
@@ -1183,12 +1191,6 @@
 	.tab-content{
 		background: #fff;
 	}
-	.other-tabs{
-		padding:0;
-	}
-	.other-tabs .services-ul li{
-		padding-left: 30px;
-	}
 	.b-title__gr{
 		text-align: center;
 	}
@@ -1223,8 +1225,8 @@
 		padding-top: 80px;
 	}
 	.faq-wrraper{
-		padding-left:20px;
-		padding-right: 20px;
+		padding-left:30px;
+		padding-right: 30px;
 	}
 	.faq-asking{
 		padding-right: 0;
@@ -1238,7 +1240,19 @@
 	.search-autosuggest .site{
 		padding:0;
 	}
-	.services-ul li:hover
+	.tab-content .b-title{
+		padding-left: 15px;
+	}
+	.services-ul li{
+		margin-bottom: 20px;
+	}
+	.services-ul li a{
+		margin-bottom: 4px;
+	}
+	.b-title__bg{
+		padding-left: 30px;
+		padding-bottom: 0;
+	}
 }
 @media screen and (max-width:655px) {
 	.information-tab{
@@ -1331,17 +1345,21 @@
 	.nav-tabs>li>a{
 		height: 60px;
 	}
-	.services-tab,.services-tab:before{
-		width: 110px;
+	.services-tab:before{
+		display: none;
 	}
 	.services-tab a span{
 		font-size: 15px;
+	}
+	.tab-content .b-title{
+		padding-left: 0;
 	}
 	.nav>li>a{
 		padding:10px 5px;
 	}
 	.tab-content{
-		width: calc(100% - 110px);
+		width:100%;
+		padding-top: 20px;
 	}
 	.services-ul li i{
 		display: none;
@@ -1369,6 +1387,15 @@
 	.information-block h3{
 		font-size: 22px;
 		text-align: center;
+	}
+	.services-tab{
+		display: block;
+		width: 100%;
+	}
+	.services-tab li{
+		display: inline-block;
+		vertical-align: middle;
+		width: 33.33%;
 	}
 }
 .nav-tabs>li a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{

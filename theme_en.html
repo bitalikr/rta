@@ -25,10 +25,16 @@
       <script type="text/javascript" src="rta-assets/js/swiper.min.js"></script>
       <script type="text/javascript" src="rta-assets/js/default-new-brand.min.js"></script>
       <script type="text/javascript" src="rta-assets/js/bootstrap-datetimepicker.min.js"></script>
-      <script type="text/javascript" src="rta-assets/js/search.js"></script>
       <script type="text/javascript" src="rta-assets/js/control.min.js"></script>
       <script type="text/javascript" src="rta-assets/js/owl.carousel.min.js"></script>
+
+      
+      <script type="text/javascript" src="rta-assets/js/autocomplete.js"></script>
       <script type="text/javascript" src="rta-assets/js/ajax-search.js"></script>
+      <script type="text/javascript" src="rta-assets/js/search.js"></script>
+      <script type="text/javascript" src="rta-assets/js/autocompleteBranding.js"></script>
+
+
       <link rel="stylesheet" type="text/css" href="rta-assets/css/bootstrap.min.css" >
       <link rel="stylesheet" type="text/css" href="rta-assets/css/bootstrap-datetimepicker.min.css" >
       <link rel="stylesheet" type="text/css" href="rta-assets/select/css/select2.min.css" >
@@ -8356,13 +8362,13 @@
 			</ol>             
         </div>
       </div>
-      <div id="big-search">
+      <!-- <div id="big-search">
       	<div class="container">
       		<div class="big-search__title">What you would like to do today?</div>
       		<div class="big-search__undert">RTA Smart Search would love to assist your journey!</div>
-      		<div class="big-search__input-wr">
+      		<div class="big-search__input-wr"> -->
       			<!-- <input type="text" name="seacrh" placeholder="I'm looking" id="searchKW"> search-ajax-value -->
-               <div id="search_part" class="grey-box sticky-top">
+               <!-- <div id="search_part" class="grey-box sticky-top">
                   <input type="text" name="seacrh" placeholder="I'm looking" id="searchKW">
                      <div class="search-autosuggest" style="display: none;">
                       <div class="site clearfix">
@@ -8372,8 +8378,30 @@
          			<button class="big-search__btn icon-search" id="search-ajax"></button>
                </div>
       		</div>
-      	</div>
+
+      	</div> -->
+         <div id="big-search">
+            <div class="container">
+               <div class="big-search__title">What you would like to do today?</div>
+               <div class="big-search__undert">RTA Smart Search would love to assist your journey!</div>
+               <div class="big-search__input-wr">
+                  <input type="text" id="searchinput" name="searchQuery" placeholder="Search">
+                  <button class="big-search__btn icon-search" id="search-button" onclick="searchServer()"></button>
+               </div>
+           </div>
+         </div>
       </div>
+         <div id="big-search">
+  <div class="container">
+ <div class="big-search__title">What you would like to do today?</div>
+ <div class="big-search__undert">RTA Smart Search would love to assist your journey!</div>
+ <div class="big-search__input-wr">
+   <input type="text" id="searchinput" name="searchQuery" placeholder="Search">
+   <button class="big-search__btn icon-search" id="search-button" onclick="searchServer()"></button>
+ </div>
+
+  </div>
+</div>
       <div id="readMe" class="rs_preserve">
          <!-- Portlet Layout Containers -->
          <div class="mainContainer clearfix">
@@ -8894,6 +8922,8 @@
 	                           overlay : {closeClick: false} // prevents closing when clicking outside fancybox 
 	                           }
 	                           });
+
+
 	                           $(".exploring-wrrap").owlCarousel({
 	                           	loop:true,
          							    margin:10,
